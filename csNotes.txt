@@ -1,0 +1,70 @@
+**CS 164 SP 2022**
+
+1/24/2022
+Primitive data types
+    int
+    double
+    char
+    boolean
+    String
+Assigning Variables
+    objects not init will be auto assigned to null
+===============================================================  How to swap int values CODED   |
+Practice 1 - Group Reflection;                                 |    int a = 10;                 |
+int A = 5;                      Answer: Final Values of A B C  |    int b = 30;                 |
+int B = 2;                          A = 2                      |    int temp;                   |
+int C = 10;                         B = 10                     |    temp = a;                   |
+A = B;                              C = 10                     |    a = b;                      |
+B = C;                                                         |    b = temp;                   |
+=================================================================================================
+Basic Math Opperators
+    =,+,-,/,*,%
+Remember you must cast or convert atleast one number data type to doule to have a decimal output
+#######################################################################################################################################
+
+Method Coding
+    -Modularize and reduce code
+    -Repeatable blocks
+    -One whole idea at a time
+    -Method Signature ex|_>
+            public static void longDivision(int value1,int value2){
+            ^scope  ^memory ^return  ^name
+                }
+
+Return types
+    -assume the return type is what is returned
+    -think of replacing the method name with the answer
+
+    Coding practice in class \_>
+    
+    public static void longDivision(int value1, int value2){
+        int quotient = value1/value2;
+        int remainder = value1 % value2;
+        System.out.println(value1 + " / " + value2 + " = " + quotient);
+        System.out.println(value1 + " % " + value2 + " = " remainder);
+    }
+
+Object Oriented Coding
+    -this - keyword pointing at an object
+    -keeps track of Variables
+    -common practice
+    Instance Method
+        -static methods
+            -shared/ often self contained
+        -instance method
+            -uses data from object
+            -needs to access object
+                -unique to the instance
+    Use Tables
+        -draw a table to visualize methods
+        -helps keep track of modifications
+        -draw tables for each keyword
+        -make new table for each new method
+We use Object oriented coding to keep code DRY
+    -code should be DRY
+        -Dont Repeat Yourself
+    -code should be:
+        -reusable
+        -small snippets
+    -reusable code
+        -only write once
