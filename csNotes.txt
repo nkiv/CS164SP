@@ -21,7 +21,7 @@ Basic Math Opperators
     =,+,-,/,*,%
 Remember you must cast or convert atleast one number data type to doule to have a decimal output
 #######################################################################################################################################
-
+1/26/22
 Method Coding
     -Modularize and reduce code
     -Repeatable blocks
@@ -68,3 +68,25 @@ We use Object oriented coding to keep code DRY
         -small snippets
     -reusable code
         -only write once
+####################################################################################################################################
+1/28/22
+Casting Variables
+    Type casting is when you assign a vlaue of one primitive data type to another type
+
+Strings
+    -Contains data
+    -has functionality (methods)
+    -strings are immutable (cant be directly modified)(immutable is derived from the word mutation)
+        -every method that builds a string, returns a copy
+String methods
+    -strings are a collection of characters
+    -indexed - beginning at 0
+    -char.charAt(x) - returns the char at index x
+    -int len = myString.length(); - returns the length of the string as an int
+    -we can find the last character of a string by finding the length minus 1
+        - watch out for bounds
+PrintF
+    Sting towelColor = "pink";
+    String myString = String.format("dont panic my balls are %s", towelColor);
+        - %s is replaced with the string towel towelColor
+    System.out.printf("%.2f%%",val); = 33.33% or any decimal followed by a percent but only showing 2 numbers after the decimal
